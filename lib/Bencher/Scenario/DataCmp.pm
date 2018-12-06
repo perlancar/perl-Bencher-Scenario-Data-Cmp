@@ -7,8 +7,6 @@ use 5.010001;
 use strict;
 use warnings;
 
-$main::data1M = join("", map {chr(256*rand)} 1..(1024*1024));
-
 our $scenario = {
     summary => 'Benchmark Data::Cmp against similar solutions',
     participants => [
