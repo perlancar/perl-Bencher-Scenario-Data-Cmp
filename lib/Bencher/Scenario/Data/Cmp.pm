@@ -1,11 +1,13 @@
-package Bencher::Scenario::DataCmp;
-
-# DATE
-# VERSION
+package Bencher::Scenario::Data::Cmp;
 
 use 5.010001;
 use strict;
 use warnings;
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 our $scenario = {
     summary => 'Benchmark Data::Cmp against similar solutions',
@@ -61,6 +63,6 @@ our $scenario = {
 
 =head1 SEE ALSO
 
-L<Bencher::Scenario::ScalarCmp>
+L<Bencher::Scenario::Scalar::Cmp>
 
 L<Bencher::Scenario::Serializers>
